@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Color Changing App</string>
+    <string name="app_title" translatable="false">Palette Activity</string>
+    <string name="welcome">Bienvenue sur mon appli. Cliquez sur les couleurs pour lancer la toile.</string>
+    <string-array name="Col">
+    <item>Sarcelle</item>
+    <item>Rouge</item>
+    <item>Jaune</item>
+    <item>Bleu</item>
+    <item>Vert</item>
+    <item>Gris</item>
+    <item>Magenta</item>
+    <item>Cyan</item>
+    <item>Noir</item>
+    <item>Marron</item>
+    <item>Olive</item>
+    <item>Violet</item>
+    </string-array>
+</resources>
