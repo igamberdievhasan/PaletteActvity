@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">Color Changing App</string>
     <string name="app_title">Palette Activity</string>
+    <string name="welcome">Welcome to my app. Click on the colors to launch the canvas.</string>
+    <string-array name="Col">
+        <item>Teal</item>
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Gray</item>
+        <item>Magenta</item>
+        <item>Cyan</item>
+        <item>Black</item>
+        <item>Maroon</item>
+        <item>Olive</item>
+        <item>Purple</item>
+    </string-array>
 </resources>

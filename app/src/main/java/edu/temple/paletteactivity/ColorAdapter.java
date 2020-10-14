@@ -49,11 +49,30 @@ public class ColorAdapter extends BaseAdapter {
 
             colorNames.setText(color[i]);
             colorNames.setTextColor(Color.BLACK);
-            colorNames.setBackgroundColor(Color.parseColor(color[i]));
+            if (color[i].equals("Sarcelle") || color[i].equals("Teal"))
+                colorNames.setBackgroundColor(Color.parseColor("#008080"));
+            else if(color[i].equals("Rouge") || color[i].equals("Red"))
+                colorNames.setBackgroundColor(Color.parseColor("#ff0000"));
+            else if(color[i].equals("Jaune") || color[i].equals("Yellow"))
+                colorNames.setBackgroundColor(Color.parseColor("#ffff00"));
+            else if(color[i].equals("Bleu") || color[i].equals("Blue"))
+                colorNames.setBackgroundColor(Color.parseColor("#ff0000ff"));
+            else if(color[i].equals("Vert") || color[i].equals("Green"))
+                colorNames.setBackgroundColor(Color.parseColor("#ff00ff00"));
+            else if(color[i].equals("Gris") || color[i].equals("Gray"))
+                colorNames.setBackgroundColor(Color.parseColor("#ff444444"));
+            else if(color[i].equals("Magenta") || color[i].equals("Magenta"))
+                colorNames.setBackgroundColor(Color.parseColor("#ff00ffff"));
+            else if(color[i].equals("Black") || color[i].equals("Noir"))
+                colorNames.setBackgroundColor(Color.parseColor("#ff000000"));
+            else if(color[i].equals("Marron") || color[i].equals("Maroon"))
+                colorNames.setBackgroundColor(Color.parseColor("#800000"));
+            else if(color[i].equals("Olive") || color[i].equals("Olive"))
+                colorNames.setBackgroundColor(Color.parseColor("#808000"));
+            else if(color[i].equals("Violet") || color[i].equals("Purple"))
+                colorNames.setBackgroundColor(Color.parseColor("#800080"));
 
-
-
-        if (color[i].equals("Black")) {
+        if (color[i].equals("Black") || color[i].equals("Noir") ) {
             colorNames.setTextColor(Color.WHITE);
         }
         return view;
